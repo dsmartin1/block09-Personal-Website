@@ -7,14 +7,18 @@ I hope.
 
 To do:
 
-- Remove fixed sidebar, convert to fixed header
-- Make sidebar retractable (js)
-- Convert CSS grid layout to flex for better scaling [New Branch]
-- Sample ad space?
-- Merge CSS into single style sheet
-
+- Review color scheme
+- Fix spacing problems with grid elements (or consider conversion to flex)
+- Fix media scaling issues
+- Add heading child class .flex-top
+- Fix unordered lists in Portfolio page and add heading element
+- Improve on rules for alignment/margins within .context-box grid elements
+- Reduce overall instances of inline style adjustments
 
 Updates:
 
 12/20 - added prototype template for testing page layout
 
+12/21 - start of branch format_v2
+
+12/22 - revisions to spacing and presentation, met general block09 requirements
