@@ -6,16 +6,16 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body style="background-color: #969379">
+  <body>
     <header class="flex-inline-top-fixed">
-      <div class="heading-top">
+      <div class="flex-top" style="border: none; margin-left: 0;">
         <h2>Home</h2>
       </div>
       <div class="flex-top">
-        <h2><a href="">Portfolio</a></h2>
+        <h2><a href="portfolio.html">Portfolio</a></h2>
       </div>
       <div class="flex-top">
-        <h2><a href="">About</a></h2>
+        <h2><a href="about.html">About</a></h2>
       </div>
       <div class="flex-top">
         <h2><a href="">Contact</a></h2>
@@ -26,6 +26,21 @@
     <div class="flex-inline-top-fixed-buffer"></div>
 
     <section class="wrapper-grid">
+      <div class="content-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.aaa
+        </p>
+      </div>
+      <div class="content-box">
+        <!--REVISION REQUIRED: Wide content causes awkward spacing in grid elements.-->
+        <img src="images/blank-400x300.png" alt="image">
+      </div>
       <div class="content-1">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -40,15 +55,16 @@
       <div class="content-2">
         <!--NOTE: Holdover from old project. May remove later.-->
         <h4>For business inquiries:</h4>
-        <form action="formsubmitted.html">
+        <form action="">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" />
+          <br />
           <br />
           <label for="email">Email:</label>
           <input type="text" id="email" name="email" />
           <br />
           <br />
-          <input type="submit" style="text-align: right" />
+          <input type="submit" />
         </form>
       </div>
     </section>

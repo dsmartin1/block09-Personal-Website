@@ -7,13 +7,16 @@ I hope.
 
 To do:
 
-- review color layout
-- apply common nav bar to about and portfolio pages
-- review use of grid in index.html
-- begin adding image files
+- Review color scheme
+- Fix spacing problems with grid elements (or consider conversion to flex)
+- Plan detailed layout for About and Portfolio pages
+- Fix media scaling issues
+- Add heading child class .flex-top
 
 Updates:
 
 12/20 - added prototype template for testing page layout
 
 12/21 - start of branch format_v2
+
+12/22 - revisions to spacing and presentation, added top bar and applied styles to About and Portfolio pages
