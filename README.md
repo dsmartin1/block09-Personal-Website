@@ -19,4 +19,4 @@ Updates:
 
 12/21 - start of branch format_v2
 
-12/22 - revisions to spacing and presentation, added top bar and applied styles to About and Portfolio pages
+12/22 - revisions to spacing and presentation, applied layout and styles to About and Portfolio pages
