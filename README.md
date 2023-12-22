@@ -9,9 +9,11 @@ To do:
 
 - Review color scheme
 - Fix spacing problems with grid elements (or consider conversion to flex)
-- Plan detailed layout for About and Portfolio pages
 - Fix media scaling issues
 - Add heading child class .flex-top
+- Fix unordered lists in Portfolio page and add heading element
+- Improve on rules for alignment/margins within .context-box grid elements
+- Reduce overall instances of inline style adjustments
 
 Updates:
 
@@ -19,4 +21,4 @@ Updates:
 
 12/21 - start of branch format_v2
 
-12/22 - revisions to spacing and presentation, applied layout and styles to About and Portfolio pages
+12/22 - revisions to spacing and presentation, met general block09 requirements
