@@ -7,14 +7,13 @@ I hope.
 
 To do:
 
-- Remove fixed sidebar, convert to fixed header
-- Make sidebar retractable (js)
-- Convert CSS grid layout to flex for better scaling [New Branch]
-- Sample ad space?
-- Merge CSS into single style sheet
-
+- review color layout
+- apply common nav bar to about and portfolio pages
+- review use of grid in index.html
+- begin adding image files
 
 Updates:
 
 12/20 - added prototype template for testing page layout
 
+12/21 - start of branch format_v2
