@@ -1,26 +1,29 @@
 body{
+	/*default background color for all pages*/
 	background-color: #969379;
 }
 
 
 .flex-inline-top-fixed {
+	/*A fixed-position top bar/wrapper for inline navigation elements*/
 	display: inline-flex;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	margin: 2px;
 	width: 100%;
+	box-sizing: content-box;
 	background-color: tan;
 	border-radius: 15px;
-	z-index: 4;
+	border-bottom: solid 1px rgb(160, 130, 110);
+	z-index: 4; /*In case of overlap, top bar will remain visible*/
   }
   
   .flex-top {
 	/*Text elements in the top bar*/
 	flex-direction: column;
 	flex-basis: 120px;
-	border-left: solid 4px #8b7f6e;
+	border-left: solid 4px rgb(160, 130, 110);
 	text-align: center;
 	& a {
 	  text-decoration: none;
@@ -33,12 +36,16 @@ body{
 
   .flex-top-icon {
 	/*Image elements in the top bar*/
+	/*May be used for social media links
+	... but first I need social media*/
 	flex-direction: column;
 	flex-basis: content;
 	margin-left: 20px;
 	padding-left: 25px;
 	padding-right: 15px;
 	text-align: center;
+	float: inline-end;
+	/*Note: float is not tested yet*/
 	& a {
 	  text-decoration: none;
 	  color: #333333;
@@ -56,7 +63,6 @@ body{
 
   .wrapper-grid {
 	/*Container for main section*/
-	box-sizing: border-box;
 	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: auto;
@@ -70,7 +76,7 @@ body{
 	grid-row: auto;
 	background-color: tan;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 10px 10px 10px 10px;
   }
   
   .content-1 {
@@ -92,11 +98,11 @@ body{
   }
   
   .footer {
-	margin-top: 50px;
+	margin-top: 70px;
 	color: #525252;
 	text-align: center;
   }
-  
+
   /*Scaling and flex for <800px width*/
   /*REQUIRES REVISION: not currently functioning correctly*/
   @media (max-width: 800px) {

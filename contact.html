@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .content-box{
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        input{
+            box-sizing: border-box;
+            width: fit-content; 
+            margin-bottom: 5px;
+        }
+
+        textarea{
+            box-sizing: border-box;
+            width: 100%;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="flex-inline-top-fixed">
+        <div class="flex-top" style="border: none; margin-left: 0;">
+          <h2>Contact</h2>
+        </div>
+        <div class="flex-top">
+          <h2><a href="index.html">Home</a></h2>
+        </div>
+        <div class="flex-top">
+          <h2><a href="portfolio.html">Portfolio</a></h2>
+        </div>
+        <div class="flex-top">
+          <h2><a href="about.html">About</a></h2>
+        </div>
+      </header>
+
+      <div class="flex-inline-top-fixed-buffer"></div>
+
+      <section class="wrapper-grid">
+        <div class="content-box">
+            <form id="contact-form" action="">
+                  <label for="name">Name:</label><br />
+                  <input id="name" type="text" name="name" /><br />
+
+                  <label for="email" >Email:</label><br />
+                  <input id="email" type="email" name="email" /><br />
+
+                  <label for="message">Message:</label><br />
+                  <textarea id="message" name="message" rows="10"></textarea><br />
+
+                  <input type="submit">
+                  <!--Does nothing for now-->
+            </form>
+        </div>
+      </section>
+      <div class="footer">
+        <p>
+          placeholder text
+          <br /> <br />
+          link | link | link | link | link
+        </p>
+      </div>
+</body>
+</html>
