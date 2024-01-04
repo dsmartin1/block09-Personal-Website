@@ -22,3 +22,5 @@ Updates:
 12/22/2023 - revisions to spacing and presentation, met general block09 requirements
 
 1/4/2024 - start of branch block12; grid elements and nav links updated, Contact page added, top bar borders adjusted, documentation updated
+
+1/4/2024 (part 2) - adjustments to contact form and style, added overflow rule to media query, opened project board for feedback
